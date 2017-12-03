@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>GlaseJS Index</title>
+	<title>GlaseJS Source: pluginHelp.js</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -81,39 +81,35 @@
 <div class="row">
 
 	
-	<div class="col-md-8">
+	<div class="col-md-12">
 	
 		<div id="main">
 			
 
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-
-
-
-
-
-    <section class="readme-section">
-        <article><h2>GlaceJS Xvfb plugin</h2><p>Provides steps to launch tests inside virtual display on Linux machines.</p>
-<h2>How to install</h2><pre class="prettyprint source"><code>npm i glace-xvfb</code></pre><h2>How to use</h2><pre class="prettyprint source lang-javascript"><code>var glaceXvfb = require(&quot;glace-xvfb&quot;);
-glaceXvfb.Steps;
-glaceXvfb.config;</code></pre></article>
-    </section>
-
-
+		<h1 class="page-title">Source: pluginHelp.js</h1>
+    
+<section>
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">"use strict";
+/**
+ * `Xvfb` plugin help.
+ *
+ * @function
+ */
+module.exports = (args, d) => {
+    return args
+        .options({
+            "xvfb": {
+                describe: d("Use xvfb for headless testing"),
+                type: "string",
+                group: "Virtual display:",
+            },
+        });
+};
+</pre>
+    </article>
+</section>
 
 
 
@@ -124,10 +120,6 @@ glaceXvfb.config;</code></pre></article>
 
 	<div class="clearfix"></div>
 
-	
-		<div class="col-md-3">
-			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
-		</div>
 	
 
 </div>
