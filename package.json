@@ -1,6 +1,6 @@
 {
   "name": "glace-xvfb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "GlaceJS Xvfb plugin",
   "main": "lib/index.js",
   "scripts": {
