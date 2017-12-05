@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/glacejs/glace-xvfb.git"
   },
-  "author": "Sergei Chipiga",
+  "author": "Sergei Chipiga <chipiga86@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/glacejs/glace-xvfb/issues"
@@ -18,7 +18,7 @@
   "homepage": "https://glacejs.github.io/glace-xvfb",
   "dependencies": {
     "chai": "^4.1.2",
-    "glace-utils": "^1.0.1",
+    "glace-utils": "^1.0.2",
     "screen-resolution": "^1.0.0",
     "xvfb": "^0.2.3"
   },
@@ -30,8 +30,8 @@
     "jsdoc-strip-async-await": "^0.1.0"
   },
   "engines": {
-    "node": ">= 8.9",
-    "npm": ">= 5.5"
+    "node": ">=8.9",
+    "npm": ">=5.5"
   },
   "files": [
     "lib"
