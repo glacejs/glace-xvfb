@@ -2,6 +2,14 @@
 
 Provides steps for [GlaceJS](https://glacejs.github.io/glace-core/) framework to launch tests inside [virtual display](https://en.wikipedia.org/wiki/Xvfb) on Linux machines.
 
+## Features
+
+- Start & stop Xvfb server
+
+## Requirements
+
+- Installed Xvfb server, for example, on **ubuntu** may be installed with command `sudo apt-get install xvfb`
+
 ## How to install
 
 ```
@@ -27,3 +35,7 @@ If plugin is used as a part of `GlaceJS` it will be loaded automatically.
 - [config](GlaceConfig.html)
 - [fixtures](global.html)
 - [steps](XvfbSteps.html)
+
+## Test examples
+
+See [integration tests](https://github.com/glacejs/glace-js/blob/master/tests/integration/testXvfb.js) in order to explore examples.
