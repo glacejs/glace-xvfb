@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/glacejs/glace-xvfb.svg?branch=master)](https://travis-ci.org/glacejs/glace-xvfb)
+
 ## GlaceJS Xvfb plugin
 
 Provides steps for [GlaceJS](https://glacejs.github.io/glace-core/) framework to launch tests inside [virtual display](https://en.wikipedia.org/wiki/Xvfb) on Linux machines.

@@ -18,7 +18,7 @@
   "homepage": "https://glacejs.github.io/glace-xvfb",
   "dependencies": {
     "chai": "^4.1.2",
-    "glace-utils": "^1.0.2",
+    "glace-utils": "^1.0.3",
     "screen-resolution": "^1.0.0",
     "xvfb": "^0.2.3"
   },
