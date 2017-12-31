@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>GlaseJS Source: config.js</title>
+	<title>GlaseJS Tutorials</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -88,53 +88,107 @@
 <div class="row">
 
 	
-	<div class="col-md-12">
+	<div class="col-md-8">
 	
 		<div id="main">
 			
 
-		<h1 class="page-title">Source: config.js</h1>
-    
+	<h1 class="page-title">Tutorials</h1>
 <section>
-    <article>
-        <pre
-            class="sunlight-highlight-javascript linenums">"use strict";
-/**
- * Configures `Xvfb` plugin. Extends `GlaceJS` configuration.
- *
- * @namespace GlaceConfig
- * @prop {object} xvfb - `Xvfb` options.
- * @prop {?number} [xvfb.width] - `Xvfb` display width.
- * @prop {?number} [xvfb.height] - `Xvfb` display height.
- */
 
-var expect = require("chai").expect;
+<header>
+    
+        <h2>
+        
+        </h2>
+        
+    
+</header>
 
-var U = require("glace-utils");
 
-var config = U.config;
-var args = config.args;
+<article>
+    <div class="container-overview">
+    
+        
 
-config.xvfb = U.defVal(config.xvfb, {});
+        
+<dl class="details">
+    
 
-config.xvfb.use = U.defVal(args.xvfb, false);
-if (typeof(args.xvfb) === "number") {
-    args.xvfb = String(args.xvfb);
-};
-if (typeof(args.xvfb) === "string") {
-    var [ width, height ] = args.xvfb.split("x");
-    expect(width &amp;&amp; height,
-        "Invalid 'xvfb' options. Use variants " +
-        "'--xvfb' or '--xvfb &lt;width>x&lt;height>'").to.exist;
-    config.xvfb.width = width;
-    config.xvfb.height = height;
-};
+	
 
-module.exports = config;
-</pre>
-    </article>
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Mixins</h3>
+
+        <dl>
+            <dt><a href="XvfbSteps.html">XvfbSteps</a></dt>
+            <dd></dd>
+        </dl>
+    
+
+    
+        <h3 class="subsection-title">Namespaces</h3>
+
+        <dl>
+            <dt><a href="namespaces.html#GlaceConfig"><a href="GlaceConfig.html">GlaceConfig</a></a></dt>
+            <dd></dd>
+        </dl>
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
 </section>
-
 
 
 
@@ -144,6 +198,10 @@ module.exports = config;
 
 	<div class="clearfix"></div>
 
+	
+		<div class="col-md-3">
+			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
+		</div>
 	
 
 </div>

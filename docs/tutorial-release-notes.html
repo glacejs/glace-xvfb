@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>GlaseJS Source: config.js</title>
+	<title>GlaseJS Tutorial: Release Notes</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -91,53 +91,22 @@
 	<div class="col-md-12">
 	
 		<div id="main">
-			
+			<section class="tutorial-section">
 
-		<h1 class="page-title">Source: config.js</h1>
+<header>
     
-<section>
-    <article>
-        <pre
-            class="sunlight-highlight-javascript linenums">"use strict";
-/**
- * Configures `Xvfb` plugin. Extends `GlaceJS` configuration.
- *
- * @namespace GlaceConfig
- * @prop {object} xvfb - `Xvfb` options.
- * @prop {?number} [xvfb.width] - `Xvfb` display width.
- * @prop {?number} [xvfb.height] - `Xvfb` display height.
- */
 
-var expect = require("chai").expect;
+    <h2>Release Notes</h2>
+</header>
 
-var U = require("glace-utils");
+<article>
+    <h3>v1.0.6</h3><ul>
+<li>Covered with tests.</li>
+<li><a href="https://github.com/glacejs/glace-xvfb/commit/fbf82f1cc24d37c9463d5dd9145590b10b6bedf2#diff-92372a1748a595f373594a03d596d5b6L42">Fixed</a> bug with custom <code>width</code> and <code>height</code> definition.</li>
+</ul>
+</article>
 
-var config = U.config;
-var args = config.args;
-
-config.xvfb = U.defVal(config.xvfb, {});
-
-config.xvfb.use = U.defVal(args.xvfb, false);
-if (typeof(args.xvfb) === "number") {
-    args.xvfb = String(args.xvfb);
-};
-if (typeof(args.xvfb) === "string") {
-    var [ width, height ] = args.xvfb.split("x");
-    expect(width &amp;&amp; height,
-        "Invalid 'xvfb' options. Use variants " +
-        "'--xvfb' or '--xvfb &lt;width>x&lt;height>'").to.exist;
-    config.xvfb.width = width;
-    config.xvfb.height = height;
-};
-
-module.exports = config;
-</pre>
-    </article>
 </section>
-
-
-
-
 
 		</div>
 	</div>
