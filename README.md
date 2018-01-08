@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/glacejs/glace-xvfb.svg?branch=master)](https://travis-ci.org/glacejs/glace-xvfb)
-
-[Release Notes](tutorial-release-notes.html)
+ | [Source Code](https://github.com/glacejs/glace-xvfb)
+ | [Release Notes](tutorial-release-notes.html)
 
 ## GlaceJS Xvfb plugin
 
