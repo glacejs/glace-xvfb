@@ -1,3 +1,7 @@
+### v1.0.7
+
+- [Used](https://github.com/glacejs/glace-xvfb/commit/091fe5b88be56676e371ae509caa5a80f7823cda) docstring style in steps.
+
 ### v1.0.6
 
 - Covered with tests.
