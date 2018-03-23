@@ -1,3 +1,8 @@
+### v1.0.8
+
+- [Added](https://github.com/glacejs/glace-xvfb/commit/a1502ef06099e5110d7fe26a7f50a6b87703ddf7) project workflow commands.
+- [Logged](https://github.com/glacejs/glace-xvfb/commit/24b0dfefbe1c88a78625b8fead60eb1671836fae) steps.
+
 ### v1.0.7
 
 - [Used](https://github.com/glacejs/glace-xvfb/commit/091fe5b88be56676e371ae509caa5a80f7823cda) docstring style in steps.
