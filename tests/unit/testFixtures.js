@@ -13,12 +13,12 @@ test("fxXvfb", () => {
     });
 
     after(() => {
-        global = oGlobal;
+        global = oGlobal; // eslint-disable-line
         SS = oSS;
     });
 
     beforeChunk(() => {
-        calls = Promise.resolve()
+        calls = Promise.resolve();
         global.before = cb => calls = calls.then(cb);
         global.after = cb => calls = calls.then(cb);
 

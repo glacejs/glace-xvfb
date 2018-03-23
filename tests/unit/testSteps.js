@@ -14,7 +14,7 @@ scope("Steps", () => {
             this.startSync = sinon.spy();
         };
         ctx.__resolution = { get: sinon.stub().returns({ width: 800,
-                                                         height: 600 }) };
+            height: 600 }) };
         delete CONF.xvfb.width;
         delete CONF.xvfb.height;
         LOG.warn = sinon.spy();
