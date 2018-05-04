@@ -14,6 +14,7 @@ module.exports = {
         "afterChunk": true,
         "fxXvfb": true,
         "after": true,
+        "allure": true,
         "before": true,
         "scope": true
     },
