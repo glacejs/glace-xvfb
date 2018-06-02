@@ -1,3 +1,7 @@
+### v1.1.0
+
+- Updated dependencies.
+
 ### v1.0.9
 
 - [Added](https://github.com/glacejs/glace-xvfb/commit/cef0194647febe93e9aca18573ffa9efa12ec4ec) [allure](https://docs.qameta.io/allure/) steps.
