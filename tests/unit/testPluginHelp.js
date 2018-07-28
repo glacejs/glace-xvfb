@@ -2,11 +2,13 @@
 
 var pluginHelp = require("../../lib").pluginHelp;
 
-test("plugin help contains option", () => {
+suite("help", () => {
+    test("plugin help contains option", () => {
 
-    var opts = pluginHelp({ options: opts => opts }, d => d);
+        var opts = pluginHelp({ options: opts => opts }, d => d);
 
-    chunk("xvfb", () => {
-        expect(opts["xvfb"]).to.exist;
+        chunk("xvfb", () => {
+            expect(opts["xvfb"]).to.exist;
+        });
     });
 });

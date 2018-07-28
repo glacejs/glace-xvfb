@@ -2,21 +2,24 @@
 
 var CONF = require("../../lib").config;
 
-test("config includes", () => {
+suite("config", () => {
 
-    chunk("xvfb section", () => {
-        expect(CONF.xvfb).to.exist;
-    });
+    test("includes", () => {
 
-    chunk("disabled xvfb", () => {
-        expect(CONF.xvfb.use).to.be.false;
-    });
-
-    chunk("empty xvfb width", () => {
-        expect(CONF.xvfb.width).to.not.exist;
-    });
-
-    chunk("empty xvfb height", () => {
-        expect(CONF.xvfb.height).to.not.exist;
+        chunk("xvfb section", () => {
+            expect(CONF.xvfb).to.exist;
+        });
+    
+        chunk("disabled xvfb", () => {
+            expect(CONF.xvfb.use).to.be.false;
+        });
+    
+        chunk("empty xvfb width", () => {
+            expect(CONF.xvfb.width).to.not.exist;
+        });
+    
+        chunk("empty xvfb height", () => {
+            expect(CONF.xvfb.height).to.not.exist;
+        });
     });
 });

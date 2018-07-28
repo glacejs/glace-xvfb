@@ -10,6 +10,8 @@ module.exports = {
         "test": true,
         "sinon": true,
         "CONF": true,
+        "$": true,
+        "suite": true,
         "beforeChunk": true,
         "afterChunk": true,
         "fxXvfb": true,
