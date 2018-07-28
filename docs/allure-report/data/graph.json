@@ -1,0 +1,71 @@
+[ {
+  "uid" : "db63ffac8388232a",
+  "name" : "Plugin lazy import",
+  "time" : {
+    "start" : 1532767115729,
+    "stop" : 1532767115732,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48bf2978789bd9ae",
+  "name" : "plugin help contains option",
+  "time" : {
+    "start" : 1532767115734,
+    "stop" : 1532767115735,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b93b55303c22d08",
+  "name" : ".stopXvfb()",
+  "time" : {
+    "start" : 1532767115751,
+    "stop" : 1532767115754,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6093d36ac665fccc",
+  "name" : ".startXvfb()",
+  "time" : {
+    "start" : 1532767115736,
+    "stop" : 1532767115751,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "becddd27e1595c73",
+  "name" : "fxXvfb",
+  "time" : {
+    "start" : 1532767115720,
+    "stop" : 1532767115727,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3790f67dcc85253e",
+  "name" : "includes",
+  "time" : {
+    "start" : 1532767115704,
+    "stop" : 1532767115712,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "316b000767fb5e3",
+  "name" : "launch test in xvfb",
+  "time" : {
+    "start" : 1532767115762,
+    "stop" : 1532767116768,
+    "duration" : 1006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

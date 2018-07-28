@@ -1,0 +1,113 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "config",
+    "children" : [ {
+      "name" : "includes",
+      "uid" : "3790f67dcc85253e",
+      "parentUid" : "ae12b400ed840cca16a213285cb24487",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532767115704,
+        "stop" : 1532767115712,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae12b400ed840cca16a213285cb24487"
+  }, {
+    "name" : "fixtures",
+    "children" : [ {
+      "name" : "fxXvfb",
+      "uid" : "becddd27e1595c73",
+      "parentUid" : "555dc0dfcc2bfb752b17e4305890e08b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532767115720,
+        "stop" : 1532767115727,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "555dc0dfcc2bfb752b17e4305890e08b"
+  }, {
+    "name" : "import",
+    "children" : [ {
+      "name" : "Plugin lazy import",
+      "uid" : "db63ffac8388232a",
+      "parentUid" : "105c7049c8d655de1a558dc7a386cc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532767115729,
+        "stop" : 1532767115732,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "105c7049c8d655de1a558dc7a386cc46"
+  }, {
+    "name" : "help",
+    "children" : [ {
+      "name" : "plugin help contains option",
+      "uid" : "48bf2978789bd9ae",
+      "parentUid" : "a1b7a8b27fa95c674e957966038f374c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532767115734,
+        "stop" : 1532767115735,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a1b7a8b27fa95c674e957966038f374c"
+  }, {
+    "name" : "Steps",
+    "children" : [ {
+      "name" : ".startXvfb()",
+      "uid" : "6093d36ac665fccc",
+      "parentUid" : "bc1de0a6a92f2257a8469242147b4770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532767115736,
+        "stop" : 1532767115751,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : ".stopXvfb()",
+      "uid" : "9b93b55303c22d08",
+      "parentUid" : "bc1de0a6a92f2257a8469242147b4770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532767115751,
+        "stop" : 1532767115754,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bc1de0a6a92f2257a8469242147b4770"
+  }, {
+    "name" : "e2e tests",
+    "children" : [ {
+      "name" : "launch test in xvfb",
+      "uid" : "316b000767fb5e3",
+      "parentUid" : "845c5136639cb09c31b37113a47fbb74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532767115762,
+        "stop" : 1532767116768,
+        "duration" : 1006
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "845c5136639cb09c31b37113a47fbb74"
+  } ],
+  "name" : "suites"
+}
