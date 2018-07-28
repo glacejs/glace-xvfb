@@ -1,11 +1,11 @@
 {
-  "uid" : "9b93b55303c22d08",
+  "uid" : "29b5676cd52ac494",
   "name" : ".stopXvfb()",
   "fullName" : "Steps..stopXvfb()",
   "historyId" : "8c29379752fb3f0aff8a170c8bd0141c",
   "time" : {
-    "start" : 1532767115751,
-    "stop" : 1532767115754,
+    "start" : 1532776470967,
+    "stop" : 1532776470970,
     "duration" : 3
   },
   "description" : "",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "skipped if not launched yet",
       "time" : {
-        "start" : 1532767115752,
-        "stop" : 1532767115752,
-        "duration" : 0
+        "start" : 1532776470967,
+        "stop" : 1532776470968,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,16 +35,16 @@
     }, {
       "name" : "stops xvfb",
       "time" : {
-        "start" : 1532767115752,
-        "stop" : 1532767115753,
+        "start" : 1532776470968,
+        "stop" : 1532776470969,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Stop Xvfb",
         "time" : {
-          "start" : 1532767115753,
-          "stop" : 1532767115753,
+          "start" : 1532776470969,
+          "stop" : 1532776470969,
           "duration" : 0
         },
         "status" : "passed",
@@ -96,7 +96,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9b93b55303c22d08.json",
+  "source" : "29b5676cd52ac494.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
