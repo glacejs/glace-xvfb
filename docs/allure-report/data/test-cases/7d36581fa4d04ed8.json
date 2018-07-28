@@ -1,12 +1,12 @@
 {
-  "uid" : "78dce0960ae98657",
-  "name" : "launch test in xvfb",
-  "fullName" : "e2e tests.launch test in xvfb",
-  "historyId" : "ee3c0d403a2fc6d114ef7df20d09eddb",
+  "uid" : "7d36581fa4d04ed8",
+  "name" : "plugin help contains option",
+  "fullName" : "help.plugin help contains option",
+  "historyId" : "90b09b96ad85837f7dbc21b0069b3afc",
   "time" : {
-    "start" : 1532776470973,
-    "stop" : 1532776471978,
-    "duration" : 1005
+    "start" : 1532802370633,
+    "stop" : 1532802370634,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,39 +18,24 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "",
+      "name" : "xvfb",
       "time" : {
-        "start" : 1532776470974,
-        "stop" : 1532776471977,
-        "duration" : 1003
+        "start" : 1532802370634,
+        "stop" : 1532802370634,
+        "duration" : 0
       },
       "status" : "passed",
-      "steps" : [ {
-        "name" : "Sleep 1 sec because sleep",
-        "time" : {
-          "start" : 1532776470975,
-          "stop" : 1532776471977,
-          "duration" : 1002
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      } ],
+      "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -58,16 +43,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "e2e tests"
+    "value" : "help"
   }, {
     "name" : "testClass",
-    "value" : "e2e tests"
+    "value" : "help"
   }, {
     "name" : "testMethod",
-    "value" : "launch test in xvfb"
+    "value" : "plugin help contains option"
   }, {
     "name" : "package",
-    "value" : "e2e tests"
+    "value" : "help"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -81,7 +66,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "78dce0960ae98657.json",
+  "source" : "7d36581fa4d04ed8.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

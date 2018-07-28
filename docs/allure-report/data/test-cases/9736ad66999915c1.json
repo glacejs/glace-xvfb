@@ -1,11 +1,11 @@
 {
-  "uid" : "f84007d6179dc9ea",
+  "uid" : "9736ad66999915c1",
   "name" : "fxXvfb",
   "fullName" : "fixtures.fxXvfb",
   "historyId" : "9edc4aae6d1201672c30f5f376fe2b9a",
   "time" : {
-    "start" : 1532776470934,
-    "stop" : 1532776470942,
+    "start" : 1532802370619,
+    "stop" : 1532802370627,
     "duration" : 8
   },
   "description" : "",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "exists",
       "time" : {
-        "start" : 1532776470935,
-        "stop" : 1532776470937,
+        "start" : 1532802370620,
+        "stop" : 1532802370622,
         "duration" : 2
       },
       "status" : "passed",
@@ -35,8 +35,8 @@
     }, {
       "name" : "starts and stops xvfb",
       "time" : {
-        "start" : 1532776470937,
-        "stop" : 1532776470940,
+        "start" : 1532802370622,
+        "stop" : 1532802370625,
         "duration" : 3
       },
       "status" : "passed",
@@ -50,9 +50,9 @@
     }, {
       "name" : "doesn't stop xvfb if it wasn't started",
       "time" : {
-        "start" : 1532776470940,
-        "stop" : 1532776470942,
-        "duration" : 2
+        "start" : 1532802370625,
+        "stop" : 1532802370626,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,7 +96,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f84007d6179dc9ea.json",
+  "source" : "9736ad66999915c1.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
