@@ -1,3 +1,8 @@
+### v1.1.1
+
+- Updated `glace-core`.
+- Started to use `$` only.
+
 ### v1.1.0
 
 - Updated dependencies.

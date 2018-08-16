@@ -7,16 +7,16 @@ suite("fixtures", () => {
     test("fxXvfb", () => {
         var calls,
             oGlobal,
-            oSS;
+            o$;
     
         before(() => {
             oGlobal = global;
-            oSS = SS;
+            o$ = $;
         });
     
         after(() => {
             global = oGlobal; // eslint-disable-line
-            SS = oSS;
+            $ = o$;
         });
     
         beforeChunk(() => {
@@ -24,8 +24,8 @@ suite("fixtures", () => {
             global.before = cb => calls = calls.then(cb);
             global.after = cb => calls = calls.then(cb);
     
-            SS.startXvfb = sinon.stub().returns(true);
-            SS.stopXvfb = sinon.stub().returns(true);
+            $.startXvfb = sinon.stub().returns(true);
+            $.stopXvfb = sinon.stub().returns(true);
         });
     
         chunk("exists", () => {
@@ -36,17 +36,17 @@ suite("fixtures", () => {
             fxXvfb(() => {});
             await calls;
     
-            expect(SS.startXvfb.calledOnce).to.be.true;
-            expect(SS.stopXvfb.calledOnce).to.be.true;
+            expect($.startXvfb.calledOnce).to.be.true;
+            expect($.stopXvfb.calledOnce).to.be.true;
         });
     
         chunk("doesn't stop xvfb if it wasn't started", async () => {
-            SS.startXvfb = sinon.stub().returns(false);
+            $.startXvfb = sinon.stub().returns(false);
             fxXvfb(() => {});
             await calls;
     
-            expect(SS.startXvfb.calledOnce).to.be.true;
-            expect(SS.stopXvfb.calledOnce).to.be.false;
+            expect($.startXvfb.calledOnce).to.be.true;
+            expect($.stopXvfb.calledOnce).to.be.false;
         });
     });
 });
