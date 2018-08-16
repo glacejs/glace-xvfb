@@ -4,13 +4,13 @@
     "name" : "config",
     "children" : [ {
       "name" : "includes",
-      "uid" : "35b892aef6c478af",
+      "uid" : "d34adbad5b8a9106",
       "parentUid" : "ae12b400ed840cca16a213285cb24487",
       "status" : "passed",
       "time" : {
-        "start" : 1532802370600,
-        "stop" : 1532802370611,
-        "duration" : 11
+        "start" : 1534443349898,
+        "stop" : 1534443349905,
+        "duration" : 7
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -20,13 +20,13 @@
     "name" : "fixtures",
     "children" : [ {
       "name" : "fxXvfb",
-      "uid" : "9736ad66999915c1",
+      "uid" : "5002940f232da288",
       "parentUid" : "555dc0dfcc2bfb752b17e4305890e08b",
       "status" : "passed",
       "time" : {
-        "start" : 1532802370619,
-        "stop" : 1532802370627,
-        "duration" : 8
+        "start" : 1534443349913,
+        "stop" : 1534443349919,
+        "duration" : 6
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -36,12 +36,12 @@
     "name" : "import",
     "children" : [ {
       "name" : "Plugin lazy import",
-      "uid" : "188e8cfc7b7fc5bc",
+      "uid" : "a419ef90986e2713",
       "parentUid" : "105c7049c8d655de1a558dc7a386cc46",
       "status" : "passed",
       "time" : {
-        "start" : 1532802370629,
-        "stop" : 1532802370631,
+        "start" : 1534443349921,
+        "stop" : 1534443349923,
         "duration" : 2
       },
       "flaky" : false,
@@ -52,12 +52,12 @@
     "name" : "help",
     "children" : [ {
       "name" : "plugin help contains option",
-      "uid" : "7d36581fa4d04ed8",
+      "uid" : "6433afde4e127ef1",
       "parentUid" : "a1b7a8b27fa95c674e957966038f374c",
       "status" : "passed",
       "time" : {
-        "start" : 1532802370633,
-        "stop" : 1532802370634,
+        "start" : 1534443349925,
+        "stop" : 1534443349926,
         "duration" : 1
       },
       "flaky" : false,
@@ -68,25 +68,25 @@
     "name" : "Steps",
     "children" : [ {
       "name" : ".startXvfb()",
-      "uid" : "26efa86435adbbc6",
+      "uid" : "f569b153736a6ff0",
       "parentUid" : "bc1de0a6a92f2257a8469242147b4770",
       "status" : "passed",
       "time" : {
-        "start" : 1532802370636,
-        "stop" : 1532802370647,
-        "duration" : 11
+        "start" : 1534443349927,
+        "stop" : 1534443349939,
+        "duration" : 12
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : ".stopXvfb()",
-      "uid" : "4f556f9b962c42e7",
+      "uid" : "e3f9c9a4f1595764",
       "parentUid" : "bc1de0a6a92f2257a8469242147b4770",
       "status" : "passed",
       "time" : {
-        "start" : 1532802370647,
-        "stop" : 1532802370651,
-        "duration" : 4
+        "start" : 1534443349940,
+        "stop" : 1534443349943,
+        "duration" : 3
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -96,13 +96,13 @@
     "name" : "e2e tests",
     "children" : [ {
       "name" : "launch test in xvfb",
-      "uid" : "af1963a9cc77dad2",
+      "uid" : "1fdc5eca999de6db",
       "parentUid" : "845c5136639cb09c31b37113a47fbb74",
       "status" : "passed",
       "time" : {
-        "start" : 1532802370656,
-        "stop" : 1532802371663,
-        "duration" : 1007
+        "start" : 1534443349948,
+        "stop" : 1534443350952,
+        "duration" : 1004
       },
       "flaky" : false,
       "parameters" : [ ]

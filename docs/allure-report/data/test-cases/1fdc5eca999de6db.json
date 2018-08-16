@@ -1,12 +1,12 @@
 {
-  "uid" : "4f556f9b962c42e7",
-  "name" : ".stopXvfb()",
-  "fullName" : "Steps..stopXvfb()",
-  "historyId" : "8c29379752fb3f0aff8a170c8bd0141c",
+  "uid" : "1fdc5eca999de6db",
+  "name" : "launch test in xvfb",
+  "fullName" : "e2e tests.launch test in xvfb",
+  "historyId" : "ee3c0d403a2fc6d114ef7df20d09eddb",
   "time" : {
-    "start" : 1532802370647,
-    "stop" : 1532802370651,
-    "duration" : 4
+    "start" : 1534443349948,
+    "stop" : 1534443350952,
+    "duration" : 1004
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,34 +18,19 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "skipped if not launched yet",
+      "name" : "",
       "time" : {
-        "start" : 1532802370648,
-        "stop" : 1532802370649,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "stops xvfb",
-      "time" : {
-        "start" : 1532802370649,
-        "stop" : 1532802370650,
-        "duration" : 1
+        "start" : 1534443349948,
+        "stop" : 1534443350952,
+        "duration" : 1004
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Stop Xvfb",
+        "name" : "Sleep 1 sec because sleep",
         "time" : {
-          "start" : 1532802370650,
-          "stop" : 1532802370650,
-          "duration" : 0
+          "start" : 1534443349949,
+          "stop" : 1534443350951,
+          "duration" : 1002
         },
         "status" : "passed",
         "steps" : [ ],
@@ -65,7 +50,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -73,16 +58,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Steps"
+    "value" : "e2e tests"
   }, {
     "name" : "testClass",
-    "value" : "Steps"
+    "value" : "e2e tests"
   }, {
     "name" : "testMethod",
-    "value" : ".stopXvfb()"
+    "value" : "launch test in xvfb"
   }, {
     "name" : "package",
-    "value" : "Steps"
+    "value" : "e2e tests"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -96,7 +81,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4f556f9b962c42e7.json",
+  "source" : "1fdc5eca999de6db.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
