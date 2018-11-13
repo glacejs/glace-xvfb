@@ -1,6 +1,6 @@
 {
   "name": "glace-xvfb",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "GlaceJS Xvfb plugin",
   "main": "lib/index.js",
   "scripts": {
@@ -37,18 +37,18 @@
   },
   "homepage": "https://glacejs.github.io/glace-xvfb",
   "dependencies": {
-    "chai": "^4.1.2",
-    "glace-utils": "^1.2.9",
-    "screen-resolution": "^1.0.0",
-    "xvfb": "^0.2.3"
+    "chai": "4.2.0",
+    "glace-utils": "1.3.1",
+    "screen-resolution": "1.0.0",
+    "xvfb": "0.2.3"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "glace-core": "^1.8.2",
+    "eslint": "^5.9.0",
+    "glace-core": "^1.8.9",
     "ink-docstrap": "^1.3.0",
     "jsdoc": "^3.5.5",
     "jsdoc-strip-async-await": "^0.1.0",
-    "nyc": "^11.9.0",
+    "nyc": "^13.1.0",
     "pre-commit": "^1.2.2"
   },
   "engines": {
