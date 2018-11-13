@@ -1,12 +1,12 @@
 {
-  "uid" : "5002940f232da288",
-  "name" : "fxXvfb",
-  "fullName" : "fixtures.fxXvfb",
-  "historyId" : "9edc4aae6d1201672c30f5f376fe2b9a",
+  "uid" : "e24b7d5fa8967e5c",
+  "name" : ".stopXvfb()",
+  "fullName" : "Steps..stopXvfb()",
+  "historyId" : "8c29379752fb3f0aff8a170c8bd0141c",
   "time" : {
-    "start" : 1534443349913,
-    "stop" : 1534443349919,
-    "duration" : 6
+    "start" : 1542141726441,
+    "stop" : 1542141726445,
+    "duration" : 4
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,10 +18,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "exists",
+      "name" : "skipped if not launched yet",
       "time" : {
-        "start" : 1534443349914,
-        "stop" : 1534443349916,
+        "start" : 1542141726441,
+        "stop" : 1542141726443,
         "duration" : 2
       },
       "status" : "passed",
@@ -33,35 +33,35 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "starts and stops xvfb",
+      "name" : "stops xvfb",
       "time" : {
-        "start" : 1534443349916,
-        "stop" : 1534443349918,
-        "duration" : 2
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "doesn't stop xvfb if it wasn't started",
-      "time" : {
-        "start" : 1534443349918,
-        "stop" : 1534443349919,
+        "start" : 1542141726443,
+        "stop" : 1542141726444,
         "duration" : 1
       },
       "status" : "passed",
-      "steps" : [ ],
+      "steps" : [ {
+        "name" : "Stop Xvfb",
+        "time" : {
+          "start" : 1542141726444,
+          "stop" : 1542141726444,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
+      "stepsCount" : 1,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
@@ -73,16 +73,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "fixtures"
+    "value" : "Steps"
   }, {
     "name" : "testClass",
-    "value" : "fixtures"
+    "value" : "Steps"
   }, {
     "name" : "testMethod",
-    "value" : "fxXvfb"
+    "value" : ".stopXvfb()"
   }, {
     "name" : "package",
-    "value" : "fixtures"
+    "value" : "Steps"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -96,7 +96,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5002940f232da288.json",
+  "source" : "e24b7d5fa8967e5c.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

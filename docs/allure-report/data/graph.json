@@ -1,69 +1,69 @@
 [ {
-  "uid" : "6433afde4e127ef1",
-  "name" : "plugin help contains option",
-  "time" : {
-    "start" : 1534443349925,
-    "stop" : 1534443349926,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d34adbad5b8a9106",
-  "name" : "includes",
-  "time" : {
-    "start" : 1534443349898,
-    "stop" : 1534443349905,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5002940f232da288",
+  "uid" : "e560ec954e783e6f",
   "name" : "fxXvfb",
   "time" : {
-    "start" : 1534443349913,
-    "stop" : 1534443349919,
-    "duration" : 6
+    "start" : 1542141726401,
+    "stop" : 1542141726411,
+    "duration" : 10
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1fdc5eca999de6db",
-  "name" : "launch test in xvfb",
-  "time" : {
-    "start" : 1534443349948,
-    "stop" : 1534443350952,
-    "duration" : 1004
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e3f9c9a4f1595764",
+  "uid" : "e24b7d5fa8967e5c",
   "name" : ".stopXvfb()",
   "time" : {
-    "start" : 1534443349940,
-    "stop" : 1534443349943,
-    "duration" : 3
+    "start" : 1542141726441,
+    "stop" : 1542141726445,
+    "duration" : 4
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f569b153736a6ff0",
-  "name" : ".startXvfb()",
-  "time" : {
-    "start" : 1534443349927,
-    "stop" : 1534443349939,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a419ef90986e2713",
+  "uid" : "e1b472cd69fe897d",
   "name" : "Plugin lazy import",
   "time" : {
-    "start" : 1534443349921,
-    "stop" : 1534443349923,
+    "start" : 1542141726414,
+    "stop" : 1542141726418,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1a8e94b1a7b6f52",
+  "name" : "launch test in xvfb",
+  "time" : {
+    "start" : 1542141726448,
+    "stop" : 1542141727453,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47a855df71ca5929",
+  "name" : ".startXvfb()",
+  "time" : {
+    "start" : 1542141726426,
+    "stop" : 1542141726440,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fddb904ce0d2f4fb",
+  "name" : "includes",
+  "time" : {
+    "start" : 1542141726378,
+    "stop" : 1542141726391,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47a869220802daf8",
+  "name" : "plugin help contains option",
+  "time" : {
+    "start" : 1542141726421,
+    "stop" : 1542141726423,
     "duration" : 2
   },
   "status" : "passed",

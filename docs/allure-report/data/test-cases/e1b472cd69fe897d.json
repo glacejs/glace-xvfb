@@ -1,12 +1,12 @@
 {
-  "uid" : "a419ef90986e2713",
+  "uid" : "e1b472cd69fe897d",
   "name" : "Plugin lazy import",
   "fullName" : "import.Plugin lazy import",
   "historyId" : "195e12178d78f888191178bc67aeb146",
   "time" : {
-    "start" : 1534443349921,
-    "stop" : 1534443349923,
-    "duration" : 2
+    "start" : 1542141726414,
+    "stop" : 1542141726418,
+    "duration" : 4
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "empty by default",
       "time" : {
-        "start" : 1534443349922,
-        "stop" : 1534443349922,
-        "duration" : 0
+        "start" : 1542141726415,
+        "stop" : 1542141726416,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,9 +35,9 @@
     }, {
       "name" : "has config",
       "time" : {
-        "start" : 1534443349922,
-        "stop" : 1534443349922,
-        "duration" : 0
+        "start" : 1542141726416,
+        "stop" : 1542141726417,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,8 +50,8 @@
     }, {
       "name" : "has plugin help",
       "time" : {
-        "start" : 1534443349923,
-        "stop" : 1534443349923,
+        "start" : 1542141726417,
+        "stop" : 1542141726417,
         "duration" : 0
       },
       "status" : "passed",
@@ -65,8 +65,8 @@
     }, {
       "name" : "has steps",
       "time" : {
-        "start" : 1534443349923,
-        "stop" : 1534443349923,
+        "start" : 1542141726417,
+        "stop" : 1542141726417,
         "duration" : 0
       },
       "status" : "passed",
@@ -111,7 +111,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a419ef90986e2713.json",
+  "source" : "e1b472cd69fe897d.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
