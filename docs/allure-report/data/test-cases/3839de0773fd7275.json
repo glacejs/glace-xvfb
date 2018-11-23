@@ -1,12 +1,12 @@
 {
-  "uid" : "e1a8e94b1a7b6f52",
+  "uid" : "3839de0773fd7275",
   "name" : "launch test in xvfb",
   "fullName" : "e2e tests.launch test in xvfb",
   "historyId" : "ee3c0d403a2fc6d114ef7df20d09eddb",
   "time" : {
-    "start" : 1542141726448,
-    "stop" : 1542141727453,
-    "duration" : 1005
+    "start" : 1542993835302,
+    "stop" : 1542993836309,
+    "duration" : 1007
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,17 +20,17 @@
     "steps" : [ {
       "name" : "",
       "time" : {
-        "start" : 1542141726449,
-        "stop" : 1542141727453,
-        "duration" : 1004
+        "start" : 1542993835303,
+        "stop" : 1542993836308,
+        "duration" : 1005
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Sleep 1 sec because sleep",
         "time" : {
-          "start" : 1542141726450,
-          "stop" : 1542141727452,
-          "duration" : 1002
+          "start" : 1542993835304,
+          "stop" : 1542993836307,
+          "duration" : 1003
         },
         "status" : "passed",
         "steps" : [ ],
@@ -81,7 +81,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e1a8e94b1a7b6f52.json",
+  "source" : "3839de0773fd7275.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

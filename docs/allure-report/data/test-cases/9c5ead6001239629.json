@@ -1,12 +1,12 @@
 {
-  "uid" : "47a869220802daf8",
+  "uid" : "9c5ead6001239629",
   "name" : "plugin help contains option",
   "fullName" : "help.plugin help contains option",
   "historyId" : "90b09b96ad85837f7dbc21b0069b3afc",
   "time" : {
-    "start" : 1542141726421,
-    "stop" : 1542141726423,
-    "duration" : 2
+    "start" : 1542993835277,
+    "stop" : 1542993835278,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "xvfb",
       "time" : {
-        "start" : 1542141726422,
-        "stop" : 1542141726423,
-        "duration" : 1
+        "start" : 1542993835278,
+        "stop" : 1542993835278,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,7 +66,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "47a869220802daf8.json",
+  "source" : "9c5ead6001239629.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

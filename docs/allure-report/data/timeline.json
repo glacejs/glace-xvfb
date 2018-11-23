@@ -1,86 +1,86 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fxXvfb",
-    "uid" : "e560ec954e783e6f",
+    "name" : ".startXvfb()",
+    "uid" : "12465b173eba6ee7",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542141726401,
-      "stop" : 1542141726411,
-      "duration" : 10
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".stopXvfb()",
-    "uid" : "e24b7d5fa8967e5c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1542141726441,
-      "stop" : 1542141726445,
-      "duration" : 4
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Plugin lazy import",
-    "uid" : "e1b472cd69fe897d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1542141726414,
-      "stop" : 1542141726418,
-      "duration" : 4
+      "start" : 1542993835280,
+      "stop" : 1542993835295,
+      "duration" : 15
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "launch test in xvfb",
-    "uid" : "e1a8e94b1a7b6f52",
+    "uid" : "3839de0773fd7275",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542141726448,
-      "stop" : 1542141727453,
-      "duration" : 1005
+      "start" : 1542993835302,
+      "stop" : 1542993836309,
+      "duration" : 1007
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : ".startXvfb()",
-    "uid" : "47a855df71ca5929",
+    "name" : "fxXvfb",
+    "uid" : "5b7becff60c6f95d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542141726426,
-      "stop" : 1542141726440,
-      "duration" : 14
+      "start" : 1542993835262,
+      "stop" : 1542993835269,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".stopXvfb()",
+    "uid" : "27b6b691e10ecf09",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1542993835295,
+      "stop" : 1542993835298,
+      "duration" : 3
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "includes",
-    "uid" : "fddb904ce0d2f4fb",
+    "uid" : "d8ab7fc41cb59149",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542141726378,
-      "stop" : 1542141726391,
-      "duration" : 13
+      "start" : 1542993835241,
+      "stop" : 1542993835250,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Plugin lazy import",
+    "uid" : "52b88e1d187844ce",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1542993835272,
+      "stop" : 1542993835275,
+      "duration" : 3
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "plugin help contains option",
-    "uid" : "47a869220802daf8",
+    "uid" : "9c5ead6001239629",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542141726421,
-      "stop" : 1542141726423,
-      "duration" : 2
+      "start" : 1542993835277,
+      "stop" : 1542993835278,
+      "duration" : 1
     },
     "flaky" : false,
     "parameters" : [ ]
