@@ -1,3 +1,7 @@
+### v1.1.4
+
+- Updated dependencies to fresh versions.
+
 ### v1.1.3
 
 - [Used](https://github.com/glacejs/glace-xvfb/commit/727c578f0d5b206bd35d5af95483c55d6811aa5e) features factory.
