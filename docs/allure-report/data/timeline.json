@@ -1,89 +1,89 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
-    "name" : ".startXvfb()",
-    "uid" : "12465b173eba6ee7",
+    "name" : "plugin help contains option",
+    "uid" : "30f88a9a3dc1ceb5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542993835280,
-      "stop" : 1542993835295,
-      "duration" : 15
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "launch test in xvfb",
-    "uid" : "3839de0773fd7275",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1542993835302,
-      "stop" : 1542993836309,
-      "duration" : 1007
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "fxXvfb",
-    "uid" : "5b7becff60c6f95d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1542993835262,
-      "stop" : 1542993835269,
-      "duration" : 7
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".stopXvfb()",
-    "uid" : "27b6b691e10ecf09",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1542993835295,
-      "stop" : 1542993835298,
+      "start" : 1551416017364,
+      "stop" : 1551416017367,
       "duration" : 3
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "includes",
-    "uid" : "d8ab7fc41cb59149",
+    "name" : ".startXvfb()",
+    "uid" : "3df14c653f74a9c2",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542993835241,
-      "stop" : 1542993835250,
-      "duration" : 9
+      "start" : 1551416017369,
+      "stop" : 1551416017380,
+      "duration" : 11
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Plugin lazy import",
-    "uid" : "52b88e1d187844ce",
+    "uid" : "e3ec56c6f37154ae",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542993835272,
-      "stop" : 1542993835275,
+      "start" : 1551416017359,
+      "stop" : 1551416017362,
       "duration" : 3
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "plugin help contains option",
-    "uid" : "9c5ead6001239629",
+    "name" : "launch test in xvfb",
+    "uid" : "f2f94649545efe8f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1542993835277,
-      "stop" : 1542993835278,
-      "duration" : 1
+      "start" : 1551416017387,
+      "stop" : 1551416018395,
+      "duration" : 1008
     },
     "flaky" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "timeline"
+  }, {
+    "name" : "includes",
+    "uid" : "a1d9c2fd1bff02d2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1551416017335,
+      "stop" : 1551416017343,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".stopXvfb()",
+    "uid" : "9e591f6d1aed69ce",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1551416017380,
+      "stop" : 1551416017383,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "fxXvfb",
+    "uid" : "a1b8269a6ad9d640",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1551416017352,
+      "stop" : 1551416017357,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
 }

@@ -1,28 +1,26 @@
 {
-  "uid" : "9c5ead6001239629",
+  "uid" : "30f88a9a3dc1ceb5",
   "name" : "plugin help contains option",
   "fullName" : "help.plugin help contains option",
   "historyId" : "90b09b96ad85837f7dbc21b0069b3afc",
   "time" : {
-    "start" : 1542993835277,
-    "stop" : 1542993835278,
-    "duration" : 1
+    "start" : 1551416017364,
+    "stop" : 1551416017367,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : false
-  },
+  "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "xvfb",
       "time" : {
-        "start" : 1542993835278,
-        "stop" : 1542993835278,
-        "duration" : 0
+        "start" : 1551416017366,
+        "stop" : 1551416017367,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,18 +58,13 @@
   "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
+  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9c5ead6001239629.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
-  "statusMessage" : {
-    "present" : false
-  },
+  "source" : "30f88a9a3dc1ceb5.json",
   "parameterValues" : [ ]
 }

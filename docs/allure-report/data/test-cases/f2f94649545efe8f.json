@@ -1,51 +1,34 @@
 {
-  "uid" : "27b6b691e10ecf09",
-  "name" : ".stopXvfb()",
-  "fullName" : "Steps..stopXvfb()",
-  "historyId" : "8c29379752fb3f0aff8a170c8bd0141c",
+  "uid" : "f2f94649545efe8f",
+  "name" : "launch test in xvfb",
+  "fullName" : "e2e tests.launch test in xvfb",
+  "historyId" : "ee3c0d403a2fc6d114ef7df20d09eddb",
   "time" : {
-    "start" : 1542993835295,
-    "stop" : 1542993835298,
-    "duration" : 3
+    "start" : 1551416017387,
+    "stop" : 1551416018395,
+    "duration" : 1008
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : false
-  },
+  "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "skipped if not launched yet",
+      "name" : "",
       "time" : {
-        "start" : 1542993835296,
-        "stop" : 1542993835297,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "stops xvfb",
-      "time" : {
-        "start" : 1542993835297,
-        "stop" : 1542993835298,
-        "duration" : 1
+        "start" : 1551416017388,
+        "stop" : 1551416018394,
+        "duration" : 1006
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Stop Xvfb",
+        "name" : "Sleep 1 sec because sleep",
         "time" : {
-          "start" : 1542993835298,
-          "stop" : 1542993835298,
-          "duration" : 0
+          "start" : 1551416017388,
+          "stop" : 1551416018394,
+          "duration" : 1006
         },
         "status" : "passed",
         "steps" : [ ],
@@ -65,7 +48,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -73,16 +56,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Steps"
+    "value" : "e2e tests"
   }, {
     "name" : "testClass",
-    "value" : "Steps"
+    "value" : "e2e tests"
   }, {
     "name" : "testMethod",
-    "value" : ".stopXvfb()"
+    "value" : "launch test in xvfb"
   }, {
     "name" : "package",
-    "value" : "Steps"
+    "value" : "e2e tests"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -90,18 +73,13 @@
   "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
+  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "27b6b691e10ecf09.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
-  "statusMessage" : {
-    "present" : false
-  },
+  "source" : "f2f94649545efe8f.json",
   "parameterValues" : [ ]
 }

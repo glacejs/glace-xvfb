@@ -1,0 +1,8 @@
+"Status","Name","Duration in ms","Description"
+"passed","help.plugin help contains option","3",""
+"passed","Steps..startXvfb()","11",""
+"passed","import.Plugin lazy import","3",""
+"passed","e2e tests.launch test in xvfb","1008",""
+"passed","config.includes","8",""
+"passed","Steps..stopXvfb()","3",""
+"passed","fixtures.fxXvfb","5",""

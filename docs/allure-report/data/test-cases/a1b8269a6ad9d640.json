@@ -1,27 +1,25 @@
 {
-  "uid" : "5b7becff60c6f95d",
+  "uid" : "a1b8269a6ad9d640",
   "name" : "fxXvfb",
   "fullName" : "fixtures.fxXvfb",
   "historyId" : "9edc4aae6d1201672c30f5f376fe2b9a",
   "time" : {
-    "start" : 1542993835262,
-    "stop" : 1542993835269,
-    "duration" : 7
+    "start" : 1551416017352,
+    "stop" : 1551416017357,
+    "duration" : 5
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : false
-  },
+  "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "exists",
       "time" : {
-        "start" : 1542993835263,
-        "stop" : 1542993835265,
+        "start" : 1551416017353,
+        "stop" : 1551416017355,
         "duration" : 2
       },
       "status" : "passed",
@@ -35,9 +33,9 @@
     }, {
       "name" : "starts and stops xvfb",
       "time" : {
-        "start" : 1542993835266,
-        "stop" : 1542993835268,
-        "duration" : 2
+        "start" : 1551416017355,
+        "stop" : 1551416017356,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,8 +48,8 @@
     }, {
       "name" : "doesn't stop xvfb if it wasn't started",
       "time" : {
-        "start" : 1542993835268,
-        "stop" : 1542993835269,
+        "start" : 1551416017356,
+        "stop" : 1551416017357,
         "duration" : 1
       },
       "status" : "passed",
@@ -90,18 +88,13 @@
   "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
+  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5b7becff60c6f95d.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
-  "statusMessage" : {
-    "present" : false
-  },
+  "source" : "a1b8269a6ad9d640.json",
   "parameterValues" : [ ]
 }

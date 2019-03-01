@@ -1,0 +1,71 @@
+[ {
+  "uid" : "9e591f6d1aed69ce",
+  "name" : ".stopXvfb()",
+  "time" : {
+    "start" : 1551416017380,
+    "stop" : 1551416017383,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1d9c2fd1bff02d2",
+  "name" : "includes",
+  "time" : {
+    "start" : 1551416017335,
+    "stop" : 1551416017343,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2f94649545efe8f",
+  "name" : "launch test in xvfb",
+  "time" : {
+    "start" : 1551416017387,
+    "stop" : 1551416018395,
+    "duration" : 1008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30f88a9a3dc1ceb5",
+  "name" : "plugin help contains option",
+  "time" : {
+    "start" : 1551416017364,
+    "stop" : 1551416017367,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3df14c653f74a9c2",
+  "name" : ".startXvfb()",
+  "time" : {
+    "start" : 1551416017369,
+    "stop" : 1551416017380,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3ec56c6f37154ae",
+  "name" : "Plugin lazy import",
+  "time" : {
+    "start" : 1551416017359,
+    "stop" : 1551416017362,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1b8269a6ad9d640",
+  "name" : "fxXvfb",
+  "time" : {
+    "start" : 1551416017352,
+    "stop" : 1551416017357,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

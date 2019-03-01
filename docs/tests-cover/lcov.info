@@ -1,5 +1,5 @@
 TN:
-SF:/home/user/vega/projects/glace/glace-xvfb/lib/config.js
+SF:/Users/sergeichip/user/projects/glace/glace-xvfb/lib/config.js
 FNF:0
 FNH:0
 DA:11,1
@@ -28,7 +28,7 @@ BRF:6
 BRH:2
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-xvfb/lib/fixtures.js
+SF:/Users/sergeichip/user/projects/glace/glace-xvfb/lib/fixtures.js
 FN:11,(anonymous_0)
 FN:11,(anonymous_1)
 FN:15,(anonymous_2)
@@ -54,7 +54,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-xvfb/lib/index.js
+SF:/Users/sergeichip/user/projects/glace/glace-xvfb/lib/index.js
 FN:15,(anonymous_0)
 FN:24,(anonymous_1)
 FN:33,(anonymous_2)
@@ -82,7 +82,7 @@ BRF:6
 BRH:6
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-xvfb/lib/pluginHelp.js
+SF:/Users/sergeichip/user/projects/glace/glace-xvfb/lib/pluginHelp.js
 FN:11,(anonymous_0)
 FNF:1
 FNH:1
@@ -95,7 +95,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-xvfb/lib/steps.js
+SF:/Users/sergeichip/user/projects/glace/glace-xvfb/lib/steps.js
 FN:22,(anonymous_0)
 FN:78,(anonymous_1)
 FNF:2
